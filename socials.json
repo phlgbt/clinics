@@ -1,0 +1,738 @@
+{
+  "ABOUT US PH CO.": {
+    "twitter": "https://x.com/AboutUsPhils"
+  },
+  "ACHIEVE WELLNESS": {
+    "facebook": "https://www.facebook.com/achieve.philippines.inc/"
+  },
+  "ADELA SERRA TY MEMORIAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/astmmcOfficial/"
+  },
+  "ALLAH VALLEY MEDICAL SPECIALIST CENTER, INC": {
+    "facebook": "https://www.facebook.com/AVMSCIHospitalofficial/"
+  },
+  "ALLAH VALLEY MEDICAL SPECIALISTS CENTER, INC.": {
+    "facebook": "https://www.facebook.com/AVMSCIHospitalofficial/"
+  },
+  "ALLEN DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/AllenDistrictHospital/"
+  },
+  "ALLIED CARE EXPERTS MEDICAL CENTER-BALIWAG (EMBRACE UNIT)": {
+    "facebook": "https://www.facebook.com/theAlliedCareExpertsMedicalcenterBALIWAG/"
+  },
+  "AMAI PAKPAK MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/p/Amai-Pakpak-Medical-Center-Marawi-City-100083413625225/"
+  },
+  "ANGEL SALAZAR MEMORIAL GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/ASMGH.Antique.Health.Care.Facility/"
+  },
+  "ANGELES CITY PRIMARY HIV CARE CLINIC - BALE ANGELENO": {
+    "facebook": "https://www.facebook.com/AngelesCityPHCC/",
+    "instagram": "https://www.instagram.com/baleangeleno/"
+  },
+  "APALIT DOCTOR'S HOSPITAL INC. (ADHOPE UNIT)": {
+    "facebook": "https://www.facebook.com/apalitdoctors/"
+  },
+  "ASIAN HOSPITAL, INC.": {
+    "facebook": "https://www.facebook.com/AsianHospitalPH/"
+  },
+  "BAGONG BARANGAY HEALTH CENTER AND SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/bagongbarangaysocialhygieneclinic/"
+  },
+  "BAGUIO HEALTH SERVICES OFFICE - REPRODUCTIVE HEALTH AND WELLNESS CENTER (AVONG TREATMENT HUB)": {
+    "facebook": "https://www.facebook.com/BaguioRHWC/"
+  },
+  "BALIUAG DISTRICT HOSPITAL (BALAI PAG-ASA)": {
+    "facebook": "https://www.facebook.com/p/Baliuag-District-Hospital-100077676222484/"
+  },
+  "BASILAN MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/BasilanMedicalCenter2025/"
+  },
+  "BATAAN GENERAL HOSPITAL AND MEDICAL CENTER (BATAAN HAVEN)": {
+    "facebook": "https://www.facebook.com/officialbataanghmc/"
+  },
+  "BATANES GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/BGHbatanes"
+  },
+  "BATANGAS MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/p/Batangas-Medical-Center-61564836197757/"
+  },
+  "BAYBAY CITY HEALTH OFFICE - HIV CENTER": {
+    "facebook": "https://www.facebook.com/p/Baybay-City-Health-Office-100069366170494/"
+  },
+  "BENGUET GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/beghhealthcareforall/"
+  },
+  "BICOL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/BicolMedicalCenter/"
+  },
+  "BICOL REGION GENERAL HOSPITAL AND GERIATRIC MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/PagpadabangBRGHGMC/"
+  },
+  "BICOL REGIONAL HOSPITAL AND MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/brhmcofficial/"
+  },
+  "BILIRAN PROVINCIAL HEALTH OFFICE": {
+    "facebook": "https://www.facebook.com/biliranpho/"
+  },
+  "BINAN CITY HOSPITAL": {
+    "facebook": "https://www.facebook.com/OsBinOfficial/"
+  },
+  "BUKIDNON PROVINCIAL MEDICAL CENTER-MALAYBALAY CITY": {
+    "facebook": "https://www.facebook.com/BukidnonProvincialMedicalCenter/"
+  },
+  "BULACAN MEDICAL CENTER (LUNTIANG SILONG)": {
+    "facebook": "https://www.facebook.com/BMCOPDKonsulta/"
+  },
+  "BURAUEN DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/bdh.burauen/"
+  },
+  "BUTUAN MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/ButuanMedicalCenterOfficial/"
+  },
+  "CABUYAO CITY HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Cabuyao-City-Hospital-61574822324371/"
+  },
+  "CADIZ DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Cadiz-District-Hospital-100091767315511/"
+  },
+  "CAGAYAN VALLEY MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/CVMCHealthCare/"
+  },
+  "CAINTA REPRODUCTIVE WELLNESS- SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Cainta-Reproductive-Wellness-Social-Hygiene-Clinic-100087255103173/"
+  },
+  "CALAMBA DOCTORS' HOSPITAL": {
+    "facebook": "https://www.facebook.com/CDH94Official/"
+  },
+  "CALOOCAN CITY TREASURER/ CALOOCAN SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/shccaloocancity/"
+  },
+  "CAMARINES NORTE PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/CNProvincialHospital/"
+  },
+  "CARAGA REGIONAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/caragarh/"
+  },
+  "CAVITE CITY SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Cavite-City-Social-Hygiene-Clinic-Primary-HIV-Care-Facility-61556532275604/"
+  },
+  "CAVITE NAVAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Cavite-Naval-Hospital-100088472906585/"
+  },
+  "CEBU CITY SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/lampingcebuSHC/"
+  },
+  "CEBU PROVINCIAL HOSPITAL - BALAMBAN": {
+    "facebook": "https://www.facebook.com/cphbal"
+  },
+  "CEBU PROVINCIAL HOSPITAL - BOGO CITY KAAGAPAY WELLNESS CLINIC": {
+    "facebook": "https://www.facebook.com/cphBogoCity/"
+  },
+  "CHINESE GENERAL HOSPITAL & MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/cghmcofficial/",
+    "instagram": "https://www.instagram.com/cghmcofficial/"
+  },
+  "CHONG HUA HOSPITAL MANDAUE": {
+    "facebook": "https://www.facebook.com/ChongHuaMANDAUE/"
+  },
+  "CIRIACO S. TIROL HOSPITAL": {
+    "facebook": "https://www.facebook.com/Ciriacostirolhospital/"
+  },
+  "CITY GOVERNMENT OF DAVAO - REPRODUCTIVE HEALTH AND WELLNESS CENTER": {
+    "facebook": "https://www.facebook.com/RHWCDavao/"
+  },
+  "CITY GOVERNMENT OF MALABON/ MALABON SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/SHCMalabon/"
+  },
+  "CITY GOVERNMENT OF MARIKINA - MARIKINA CITY SATELLITE TREATMENT HUB": {
+    "facebook": "https://www.facebook.com/100069762858483/"
+  },
+  "CITY GOVERNMENT OF NAVOTAS/ NAVOTAS SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/NavotasSHC/"
+  },
+  "CITY GOVERNMENT OF PARANAQUE/PARANAQUE SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/SHCParanaque/"
+  },
+  "CITY GOVERNMENT OF PASIG - PASIG TREATMENT HUB": {
+    "facebook": "https://www.facebook.com/PasigSHCandTreatmentHub/"
+  },
+  "CITY HEALTH OFFICE - CDO PRIMARY HIV TREATMENT HUB (NEST WELLNESS HUB)": {
+    "facebook": "https://www.facebook.com/socialhygienecliniccagayandeoro/"
+  },
+  "CITY OF GEN. TRIAS SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/gentrishc/",
+    "instagram": "https://www.instagram.com/gentri_shc/",
+    "twitter": "https://x.com/gentrishc"
+  },
+  "CITY OF SAN JOSE DEL MONTE PRIMARY HIV CARE CLINIC (VILLA ESPERANZA)": {
+    "facebook": "https://www.facebook.com/CSJDMVillaEsperanza1/"
+  },
+  "CITY OF SAN JOSE DEL MONTE PRIMARY HIV CARE CLINIC II (VILLA ESPERANZA II)": {
+    "facebook": "https://www.facebook.com/CSJDMVillaEsperanza2/"
+  },
+  "CITY TREASURER OF ANTIPOLO/ ANTIPOLO CITY HEALTH OFFICE 1 ANIMAL BITE TREATMENT CENTER": {
+    "facebook": "https://www.facebook.com/ASHCSTH/"
+  },
+  "CITY TREASURER OF ANTIPOLO/ANTIPOLO SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/ASHCSTH/"
+  },
+  "CORAZON LOCSIN MONTELIBANO MEMORIAL REGIONAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/CLMMRHhorizon/"
+  },
+  "COTABATO PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Cotabato-Provincial-Hospital-61577237605172/"
+  },
+  "COTABATO REGIONAL AND MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/crmc12/"
+  },
+  "COTABATO SANITARIUM AND GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/cotsangen.doh.gov.ph/"
+  },
+  "COURAGE CARE INCORPORATED": {
+    "facebook": "https://www.facebook.com/CourageCareInc/",
+    "twitter": "https://x.com/CourageCare"
+  },
+  "CULASI DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/culasidistricthospital/"
+  },
+  "D.O. PLAZA MEMORIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/DOPMH/"
+  },
+  "DASMARINAS SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Dasmari%C3%B1as-Social-Hygiene-Clinic-61571279507128/"
+  },
+  "DAVAO DEL SUR PROVINCIAL HOSPITAL- EMBRACE": {
+    "facebook": "https://www.facebook.com/officialDSPH/"
+  },
+  "DAVAO DOCTORS HOSPITAL (CLINICA HILARIO), INC.": {
+    "facebook": "https://www.facebook.com/DavaoDoctorsHospital/"
+  },
+  "DAVAO OCCIDENTAL GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Davao-Occidental-General-Hospital-100089814696152/"
+  },
+  "DAVAO REGIONAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/redstarclinic/"
+  },
+  "DE LA SALLE UNIVERSITY MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/dlsumcofficial/"
+  },
+  "DERECHO USWAG CATBALOGAN CITY HEALTH HIV PRIMARY CARE FACILITY": {
+    "facebook": "https://www.facebook.com/CatbaloganCHO/"
+  },
+  "DINAGAT DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/ddhhomepage/"
+  },
+  "DIVINE WORD HOSPITAL": {
+    "facebook": "https://www.facebook.com/dwhtofficial/"
+  },
+  "DOH TAGAYTAY TREATMENT AND REHABILITATION WELLNESS CENTER": {
+    "facebook": "https://www.facebook.com/DOHTRCTAGAYTAYCITY/"
+  },
+  "DON JOSE S. MONFORT MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/DJSMMC/"
+  },
+  "DR. ARTURO P. PINGOY MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/DAPPMC/"
+  },
+  "DR. CATALINO GALLEGO NAVA MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/dcgnph213/"
+  },
+  "DR. JORGE P. ROYECA CITY HOSPITAL": {
+    "facebook": "https://www.facebook.com/djprchospital/"
+  },
+  "DR. JORGE P. ROYECA CITY HOSPITAL-RAINBOW CENTER FOR REVITALIZATION": {
+    "facebook": "https://www.facebook.com/djprchospital/"
+  },
+  "DR. JOSE N. RODRIGUEZ MEMORIAL HOSPITAL AND SANITARIUM": {
+    "facebook": "https://www.facebook.com/officialDJNRMHS/"
+  },
+  "DR. PAULINO J. GARCIA MEMORIAL RESEARCH AND MEDICAL CENTER (SANCTUARIO DE PAULINO)": {
+    "facebook": "https://www.facebook.com/drpjgmrmc.doh/"
+  },
+  "DR. RAFAEL S. TUMBOKON MEMORIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/DRSTMHOfficialPage/"
+  },
+  "EAST AVENUE MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/p/East-Avenue-Medical-Center-100064278056123/"
+  },
+  "EASTERN BICOL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/p/Eastern-Bicol-Medical-Center-61575615603630/"
+  },
+  "EASTERN SAMAR PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Eastern-Samar-Provincial-Hospital-100064606575616/"
+  },
+  "EASTERN VISAYAS MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/evrmcofficial/"
+  },
+  "ELEVE HEALTH AND WELLNESS CLINIC": {
+    "facebook": "https://www.facebook.com/elevehealthandwellnesscenter/"
+  },
+  "EVERSLEY CHILDS SANITARIUM AND GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/ECSGHOfficial/"
+  },
+  "FAMILY PLANNING ORGANIZATION OF THE PHILIPPINES": {
+    "facebook": "https://www.facebook.com/FPOPiloilo/"
+  },
+  "FAMILY PLANNING ORGANIZATION OF THE PHILIPPINES-PAMPANGA CHAPTER (YCAP COMMUNITY CENTER AND PRIMARY HIV CARE CLINIC)": {
+    "facebook": "https://www.facebook.com/fpoPampanga/"
+  },
+  "FAR NORTH LUZON GENERAL HOSPITAL AND TRAINING CENTER": {
+    "facebook": "https://www.facebook.com/fnlghtc/"
+  },
+  "FELIPE ABRIGO MEMORIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/people/Felipe-Abrigo-Memorial-Hospital-Guiuan/61550650086349/"
+  },
+  "FPOP POIKILOS": {
+    "facebook": "https://www.facebook.com/p/FPOP-Poikilos-61555137646903/"
+  },
+  "GANDARA DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/gandaradistricthospital/"
+  },
+  "GENERAL EMILIO AGUINALDO MEMORIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/General-Emilio-Aguinaldo-Memorial-Hospital-100064257033531/"
+  },
+  "GOV. BENJAMIN T. ROMUALDEZ GENERAL HOSPITAL AND SCHISTOSOMIASIS CENTER": {
+    "facebook": "https://www.facebook.com/GBTRGHSC/"
+  },
+  "GOVERNOR BENJAMIN T ROMUALDEZ GENERAL HOSPITAL AND SCHISTOSOMIASIS CENTER": {
+    "facebook": "https://www.facebook.com/GBTRGHSC/"
+  },
+  "GOVERNOR CELESTINO GALLARES MEMORIAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/gcgmmcofficial/"
+  },
+  "GUIGUINTO RHU II PRIMARY HIV CARE CLINIC (GINTONG KANLUNGAN)": {
+    "facebook": "https://www.facebook.com/GintongKanlungan/"
+  },
+  "HEALTHWAY QUALIMED HOSPITAL SAN JOSE DEL MONTE (HMN CARE CENTER)": {
+    "facebook": "https://www.facebook.com/HMNQualiMedSJDM/"
+  },
+  "ILOCOS SUR PROVINCIAL HOSPITAL GABRIELA SILANG": {
+    "facebook": "https://www.facebook.com/ISPHGS/"
+  },
+  "ILOCOS TRAINING AND REGIONAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/ITRMC.dohgovph/"
+  },
+  "ILOILO PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/IloiloProvincialHospital.IPH/"
+  },
+  "IMUS REPRODUCTIVE AND WELLNESS CENTER": {
+    "facebook": "https://www.facebook.com/irwctreatmentfacility"
+  },
+  "JAMES L. GORDON MEMORIAL HOSPITAL (LEAD SHELTER)": {
+    "facebook": "https://www.facebook.com/p/James-L-Gordon-Memorial-Hospital-100069075786347/"
+  },
+  "JANIUAY RURAL HEALTH UNIT": {
+    "facebook": "https://www.facebook.com/p/Janiuay-Rural-Health-Unit-61577196179349/"
+  },
+  "JESUS M. COLMENARES DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Jesus-M-Colmenares-District-Hospital-61573139440270/"
+  },
+  "JOSE B. LINGAD MEMORIAL GENERAL HOSPITAL (BAHAY LINGAD)": {
+    "facebook": "https://www.facebook.com/jblmghpageofficial/"
+  },
+  "KABSAT WELLNESS CENTER": {
+    "facebook": "https://www.facebook.com/p/Kabsat-Wellness-Center-61584862855195/"
+  },
+  "KALINGA PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Kalinga-Provincial-Hospital-KPH-100057657360804/"
+  },
+  "KIDAPAWAN DOCTORS HOSPITAL, INC.": {
+    "facebook": "https://www.facebook.com/kidapawandoctorshospital/"
+  },
+  "KLINIKA LIPA ST. ALOYSIUS CLINIC": {
+    "facebook": "https://www.facebook.com/p/Klinika-Lipa-100080333782519/"
+  },
+  "KLINIKA ROSARIO SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/KlinikaRSC/"
+  },
+  "LA PAZ RURAL HEALTH UNIT": {
+    "facebook": "https://www.facebook.com/rhu.lapazabra/"
+  },
+  "LABUAN GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/LabuanGeneralHospital/"
+  },
+  "LACASANDILE MEDICAL CLINIC AND DIAGNOSTIC CENTER": {
+    "facebook": "https://www.facebook.com/lacasandilemcdc/"
+  },
+  "LAGUNA MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/LagunaMedicalCenter/"
+  },
+  "LAS PINAS SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Las-Pinas-Social-Hygiene-Clinic-100064005912986/"
+  },
+  "LEYTE PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Leyte-Provincial-Hospital-61564240552870/"
+  },
+  "LIPA MEDIX MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/LipaMedixOfficialFBPage/",
+    "instagram": "https://www.instagram.com/lipamedix/"
+  },
+  "LORENZO D. ZAYCO DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/LDZDH/"
+  },
+  "LORMA MEDICAL CENTER, INC.": {
+    "facebook": "https://www.facebook.com/LormaMedicalCenter/"
+  },
+  "LOVEYOURSELF INC. (ANGLO)": {
+    "facebook": "https://www.facebook.com/loveyourself.ph/",
+    "instagram": "https://www.instagram.com/loveyourself.ph/"
+  },
+  "LUNG CENTER OF THE PHILIPPINES": {
+    "facebook": "https://www.facebook.com/LungCenterofthePhilippines/"
+  },
+  "MABALACAT CITY RHU II REPRODUCTIVE HEALTH AND WELLNESS CENTER AND PRIMARY HIV CARE CLINIC (AMLAT MABALACAT)": {
+    "facebook": "https://www.facebook.com/p/AMLAT-Mabalacat-Primary-HIV-Care-Clinic-100064132683208/"
+  },
+  "MAKATI MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/IamMakatiMed/"
+  },
+  "MANDALUYONG SOCIAL HYGIENE CLINIC AND TREATMENT HUB": {
+    "facebook": "https://www.facebook.com/p/Mandaluyong-Social-Hygiene-Clinic-100083626891341/"
+  },
+  "MANDAUE CITY SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/HIVMANDAUE/"
+  },
+  "MANILA DOCTORS HOSPITAL": {
+    "facebook": "https://www.facebook.com/maniladoctorshospital/",
+    "twitter": "https://x.com/ManilaDoctors"
+  },
+  "MANILA SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/ManilaSocialHygiene/"
+  },
+  "MANUEL J. SANTOS HOSPITAL": {
+    "facebook": "https://www.facebook.com/ManuelJSantosHospital/",
+    "instagram": "https://www.instagram.com/manuelj.santoshospital/"
+  },
+  "MARGOSATUBIG REGIONAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/margosatubigreghospital/"
+  },
+  "MARIA AURORA COMMUNITY HOSPITAL": {
+    "facebook": "https://www.facebook.com/MariaAuroraCommunityHospitalofficial/"
+  },
+  "MARIANO MARCOS MEMORIAL HOSPITAL AND MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/MMMHMCofficial/"
+  },
+  "MARINDUQUE PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/1390550644288395/"
+  },
+  "MARY JOHNSTON HOSPITAL": {
+    "facebook": "https://www.facebook.com/MJHhealingtogether/"
+  },
+  "MASBATE PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/MasbateProvincialHospital/"
+  },
+  "MAYOR HILARION A. RAMIRO SR. MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/MHARSMedicalCenter/"
+  },
+  "MEDICAL CENTER MANILA, INC.": {
+    "facebook": "https://www.facebook.com/ManilaMed/"
+  },
+  "MEDIPRIME MEDICAL CLINIC": {
+    "facebook": "https://www.facebook.com/mediprime.ph/"
+  },
+  "MEYCAUAYAN CITY PRIMARY HIV CARE CLINIC (HOME OF BAMBOO)": {
+    "facebook": "https://www.facebook.com/meychomeofbamboo/"
+  },
+  "MY HUB CARES INCORPORATED": {
+    "facebook": "https://www.facebook.com/myhubcares/"
+  },
+  "NATIONAL CHILDREN'S HOSPITAL": {
+    "facebook": "https://www.facebook.com/OfficialNCH/"
+  },
+  "NEGROS ORIENTAL PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/nophthub/"
+  },
+  "NORTHERN MINDANAO MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/NMMCRegion10/"
+  },
+  "NORTHERN SAMAR PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/nsph.officialpage/"
+  },
+  "NOTRE DAME DE CHARTRES HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Notre-Dame-de-Chartres-Hospital-100063608002884/"
+  },
+  "OCCIDENTAL MINDORO PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/Occidental-Mindoro-Provincial-Hospital-2140119042965913"
+  },
+  "OPAT.PH": {
+    "facebook": "https://www.facebook.com/opat.ph/"
+  },
+  "ORIENTAL MINDORO PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/opdOMPH/"
+  },
+  "ORMOC CITY HEALTH OFFICE": {
+    "facebook": "https://www.facebook.com/p/City-Health-Department-Ormoc-100084430776811/"
+  },
+  "OSPITAL NG LUNGSOD NG SAN JOSE DEL MONTE (BAHAY TANGLAWAN)": {
+    "facebook": "https://www.facebook.com/p/City-of-San-Jose-Del-Monte-Ospital-ng-Lungsod-ng-San-Jose-Del-Monte-61558234651115/"
+  },
+  "OSPITAL NG PALAWAN": {
+    "facebook": "https://www.facebook.com/ospital.palawan/"
+  },
+  "PAGAMUTAN NG DASMARINAS": {
+    "facebook": "https://www.facebook.com/Pagamutanngdasma/"
+  },
+  "PAGLAUM WELLNESS CENTER": {
+    "facebook": "https://www.facebook.com/PaglaumBXU/",
+    "instagram": "https://www.instagram.com/paglaumbxu/"
+  },
+  "PANGLAO RURAL HEALTH UNIT - HAYAG WELLNESS CLINIC": {
+    "facebook": "https://www.facebook.com/rhupanglao/"
+  },
+  "PANOPDOPAN DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/people/Panopdopan-District-HospitalLamutIfugao/61554337187639/"
+  },
+  "PASAY CITY GOVERNMENT FOR PASAY SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Pasay-Social-Hygiene-Clinic-100063566485027/"
+  },
+  "PRESIDENT RAMON MAGSAYSAY MEMORIAL HOSPITAL (BALIN KALINGA)": {
+    "facebook": "https://www.facebook.com/prmmhiba/"
+  },
+  "QUEZON CITY GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Quezon-City-General-Hospital-100076593645337/"
+  },
+  "QUEZON CITY GOVERNMENT / A. J. MAXIMO SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/ajmaxshc/"
+  },
+  "QUEZON CITY GOVERNMENT / KLINIKA BERNARDO": {
+    "facebook": "https://www.facebook.com/theklinikabernardo/"
+  },
+  "QUEZON CITY GOVERNMENT / KLINIKA EASTWOOD": {
+    "facebook": "https://www.facebook.com/p/Klinika-Eastwood-official-61573085067809/"
+  },
+  "QUEZON CITY GOVERNMENT/ BATASAN SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/kbatasan/"
+  },
+  "QUEZON CITY GOVERNMENT/ BERNARDO SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Bernardo-Social-Hygiene-Clinic-100054634080840/"
+  },
+  "QUEZON CITY GOVERNMENT/ KLINIKA BATASAN": {
+    "facebook": "https://www.facebook.com/kbatasan/"
+  },
+  "QUEZON CITY GOVERNMENT/ KLINIKA NOVALICHES": {
+    "facebook": "https://www.facebook.com/klinikanovalichessocialhygieneclinic/"
+  },
+  "QUEZON CITY GOVERNMENT/ KLINIKA PROJECT 7": {
+    "facebook": "https://www.facebook.com/KlinikaProject7/"
+  },
+  "QUEZON CITY GOVERNMENT/ PROJECT 7 SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/KlinikaProject7/"
+  },
+  "QUEZON PROVINCIAL HOSPITAL NETWORK - QUEZON MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/QuezonMedicalCenterOfficial/"
+  },
+  "QUIRINO MEMORIAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/qmmc.doh.gov.ph/"
+  },
+  "QUIRINO PROVINCE MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/quirinoprovincemedicalcenter"
+  },
+  "R.T. LIM FAMILY HOSPITAL CO.": {
+    "facebook": "https://www.facebook.com/R.T.LimFamilyHospitalCo/"
+  },
+  "RAMON TABIANA MEMORIAL DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Ramon-Tabiana-Memorial-District-Hospital-100088491620087/"
+  },
+  "RE DE JESUS MULTI-SPECIALTY CLINIC AND DIAGNOSTIC CENTER (GREEN CLINIC)": {
+    "facebook": "https://www.facebook.com/reg3greenclinic/"
+  },
+  "REGION I MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/r1mcofficial/"
+  },
+  "REGION II TRAUMA AND MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/R2TMCOfficial/"
+  },
+  "REGIONAL TB-HIV SUPPORT NETWORK INC. (LAKAN COMMUNITY CENTER AND PRIMARY HIV CARE CLINIC)": {
+    "facebook": "https://www.facebook.com/LAKANNetwork/"
+  },
+  "REP. PEDRO G. TRONO MEMORIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/rpgtmh/"
+  },
+  "RESEARCH INSTITUTE FOR TROPICAL MEDICINE": {
+    "facebook": "https://www.facebook.com/RITMPH/",
+    "twitter": "https://twitter.com/RITMPH"
+  },
+  "RHU 1 MARILAO BULACAN (KANARYONG SILUNGAN)": {
+    "facebook": "https://www.facebook.com/kanaryong18/"
+  },
+  "RIZAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/rmc.doh.gov.ph/"
+  },
+  "RMPH WE CARE CLINIC AND TREATMENT FACILITY": {
+    "facebook": "https://www.facebook.com/p/RMPH-We-CARE-Clinic-and-Treatment-Facility-100091124044135/"
+  },
+  "RODRIGUEZ MUNICIPAL HEALTH OFFICE": {
+    "facebook": "https://www.facebook.com/MunicipalHealthOfficeMontalban/"
+  },
+  "ROMBLON PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Romblon-Provincial-Hospital-100076709334413/"
+  },
+  "SAGE MEDICAL CLINIC OPC": {
+    "facebook": "https://www.facebook.com/p/Sage-Medical-Clinic-61574116873099/"
+  },
+  "SALVACION OPPUS YNIGUEZ MEMORIAL. PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/soymphofficial/"
+  },
+  "SAMAR PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/samarprovincialhospital/"
+  },
+  "SAN FRANCISCO RHU TB DOTS CENTER": {
+    "facebook": "https://www.facebook.com/rhusfads22/"
+  },
+  "SAN JUAN DE DIOS EDUCATIONAL FOUNDATION, INC.": {
+    "facebook": "https://www.facebook.com/SJDEFIHospital/",
+    "twitter": "https://x.com/sjdefihospital"
+  },
+  "SAN LAZARO HOSPITAL": {
+    "facebook": "https://www.facebook.com/SLHPHO/"
+  },
+  "SAN MATEO SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/SanMateoRizalSHC/"
+  },
+  "SAN PABLO SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/San-Pablo-Social-Hygiene-Clinic-61556209263543/"
+  },
+  "SANTIAGO CITY HEALTH OFFICE HIV/AIDS ACTION TEAM (SCHO-HAT)": {
+    "facebook": "https://www.facebook.com/SantiagoCityHealthOffice/"
+  },
+  "SARANGANI PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Sarangani-Provincial-Hospital-100066728081201/"
+  },
+  "SEN. GERARDO M. ROXAS MEMORIAL DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/SGMRMDH/"
+  },
+  "SHIP CLINIC": {
+    "facebook": "https://www.facebook.com/TheSHIPFoundation/"
+  },
+  "SORSOGON PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/sphcares/"
+  },
+  "SOUTH COTABATO PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/OfficialSCPH/"
+  },
+  "SOUTHERN ISABELA MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/simcfbpage/"
+  },
+  "SOUTHERN PHILIPPINES MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/SpmcHactClinic/"
+  },
+  "ST. ANNE GENERAL HOSPITAL, INC.": {
+    "facebook": "https://www.facebook.com/saghiofficial/"
+  },
+  "ST. CAMILLUS HOSPITAL": {
+    "facebook": "https://www.facebook.com/schcalbayog/"
+  },
+  "ST. LUKE'S MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/StLukesPH/"
+  },
+  "ST. LUKE'S MEDICAL CENTER (GLOBAL CITY), INC.": {
+    "facebook": "https://www.facebook.com/StLukesPH/"
+  },
+  "ST. PAUL'S HOSPITAL OF ILOILO, INC.": {
+    "facebook": "https://www.facebook.com/SphiloiloOfficial/"
+  },
+  "STA. ANA HOSPITAL": {
+    "facebook": "https://www.facebook.com/Sta.AnaHospitalTreatmentHub/"
+  },
+  "SULTAN KUDARAT PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/newskph/"
+  },
+  "SULU PROVINCIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/IPHO-Sulu-Provincial-Hospital-61556671260037/"
+  },
+  "SULU SANITARIUM AND GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/sulusani/"
+  },
+  "SUSTAINED HEALTH INITIATIVES OF THE PHILIPPINES (SHIP) - SAIL CLINIC CAVITE": {
+    "facebook": "https://www.facebook.com/SailCavite/"
+  },
+  "SUSTAINED HEALTH INITIATIVES OF THE PHILIPPINES (SHIP) - SAIL CLINIC MAKATI": {
+    "facebook": "https://www.facebook.com/SailClinicMakati/",
+    "instagram": "https://www.instagram.com/sailclinics/"
+  },
+  "TACLOBAN CITY HOSPITAL": {
+    "facebook": "https://www.facebook.com/TaclobanCityHospital/"
+  },
+  "TAGUIG SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/taguigsocialhygiene"
+  },
+  "TALISAY CITY SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/SHCtalisay/"
+  },
+  "TANZA WELLNESS CENTER": {
+    "facebook": "https://www.facebook.com/TWC.rhu/"
+  },
+  "TARLAC PROVINCIAL HOSPITAL (TPH CARES)": {
+    "facebook": "https://www.facebook.com/TarlacProvincialHospital/"
+  },
+  "TAYTAY DOCTORS MULTISPECIALTY HOSPITAL": {
+    "facebook": "https://www.facebook.com/TaytayDoctorsMultispecialtyHospital/"
+  },
+  "TAYTAY SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/p/Taytay-Social-Hygiene-Clinic-100090740644088/"
+  },
+  "THE MEDICAL CITY": {
+    "facebook": "https://www.facebook.com/TheMedicalCity/"
+  },
+  "THE MEDICAL CITY ILOILO HOSPITAL INC.": {
+    "facebook": "https://www.facebook.com/themedicalcityiloilo"
+  },
+  "THE MEDICAL CITY SOUTH LUZON": {
+    "facebook": "https://www.facebook.com/TheMedicalCitySouthLuzon/"
+  },
+  "TONDO FORESHORE HEALTH CENTER AND SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/tondoforeshorehealthcenter/"
+  },
+  "TONDO HEALTH CENTER AND SOCIAL HYGIENE": {
+    "facebook": "https://www.facebook.com/TondoSocialHygieneClinicDist.2/"
+  },
+  "TONDO MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/tondomed/"
+  },
+  "TREATMENT, HEALTH AND WELLNESS SERVICE CLINIC (ROXAS CITY HEALTH OFFICE)": {
+    "facebook": "https://www.facebook.com/roxascho/"
+  },
+  "TROPICAL DISEASE FOUNDATION, INC.": {
+    "facebook": "https://www.facebook.com/theprimaryclinic/"
+  },
+  "UP-PHILIPPINE GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/philippinegeneralhospitalofficial/"
+  },
+  "VALENTINA GALIDO PLAZA MEMORIAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/VGPMHisHOME/"
+  },
+  "VALENZUELA MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/vmc.doh.gov/"
+  },
+  "VALENZUELA SOCIAL HYGIENE CLINIC": {
+    "facebook": "https://www.facebook.com/VCSHC/"
+  },
+  "VALLADOLID DISTRICT HOSPITAL": {
+    "facebook": "https://www.facebook.com/VALLADOLIDDISTRICTHOSPITAL/"
+  },
+  "VISAYAS MED-CEBU": {
+    "facebook": "https://www.facebook.com/BalayMalingkawasnonVCMC/"
+  },
+  "WEST VISAYAS STATE UNIVERSITY MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/wvsumc/"
+  },
+  "WESTERN VISAYAS MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/wvmciloilo/"
+  },
+  "WESTERN VISAYAS SANITARIUM AND GENERAL HOSPITAL": {
+    "facebook": "https://www.facebook.com/p/Western-Visayas-Sanitarium-100068940618668/"
+  },
+  "YAKAP MEDICAL CLINIC": {
+    "facebook": "https://www.facebook.com/yakapmedicalclinic/"
+  },
+  "ZAMBOANGA CITY MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/zcmcdoh9/"
+  },
+  "ZAMBOANGA DEL SUR MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/zdsmcTeam2/"
+  },
+  "ZAMBOANGA REGIONAL MEDICAL CENTER": {
+    "facebook": "https://www.facebook.com/p/Zamboanga-Regional-Medical-Center-100068808986345/"
+  }
+}

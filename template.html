@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIV, STI &amp; Sexual Health Clinic Directory  -  Philippines</title>
+<style>
+  :root{
+    --bg:        #F6F7F5;
+    --panel:     #FFFFFF;
+    --ink:       #1E2A24;
+    --ink-soft:  #52645A;
+    --line:      #DEE4DE;
+    --teal:      #285C54;
+    --teal-deep: #1A3E38;
+    --gold:      #B8873B;
+    --gov:       #3E6B8A;
+    --gov-bg:    #E9F0F5;
+    --priv:      #8A5A3E;
+    --priv-bg:   #F5EDE6;
+    /* facility-type accent colors */
+    --shc:       #4E7DAB;   /* social hygiene clinic - blue */
+    --shc-bg:    #E9F1F9;
+    --hub:       #3C8C74;   /* DOH treatment hub / hospital - green */
+    --hub-bg:    #E8F4EF;
+    --ngo:       #A6673C;   /* community hub / NGO - amber-brown */
+    --ngo-bg:    #F7EEE4;
+    --radius:    10px;
+    --shadow:    0 1px 2px rgba(30,42,36,0.06), 0 2px 8px rgba(30,42,36,0.04);
+    --controls-h: 96px;
+  }
+
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height:1.45;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{ color:var(--teal); }
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible{
+    outline: 3px solid var(--gold);
+    outline-offset: 2px;
+  }
+
+  header.top{
+    background: linear-gradient(160deg, var(--teal-deep), var(--teal) 70%);
+    color:#F2F5F1;
+    padding: 28px 20px 26px;
+  }
+  header.top .wrap{ max-width:960px; margin:0 auto; }
+  header.top .credit{
+    font-size:13px;
+    color:#BFDCD1;
+    margin:0 0 10px;
+  }
+  header.top .credit a{
+    color:#EFE0C4;
+    text-decoration-color: rgba(239,224,196,.5);
+    font-weight:600;
+  }
+  header.top .eyebrow{
+    font-size:12.5px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    color:#BFDCD1;
+    font-weight:600;
+    margin-bottom:6px;
+  }
+  header.top h1{
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-weight:600;
+    font-size:clamp(24px, 4vw, 32px);
+    margin:0 0 8px;
+    letter-spacing:-0.01em;
+  }
+  header.top p.sub{
+    margin:0;
+    color:#D9E7E0;
+    font-size:14.5px;
+    max-width:62ch;
+  }
+  header.top p.sub a{ color:#EFE0C4; text-decoration-color: rgba(239,224,196,.5); }
+
+  header.top .report-link{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    margin-top:12px;
+    font-size:13px;
+    color:#D9E7E0;
+  }
+  header.top .report-link a{
+    color:#EFE0C4;
+    font-weight:600;
+    text-decoration-color: rgba(239,224,196,.5);
+  }
+  header.top .report-link svg{ width:13px; height:13px; fill:currentColor; flex:0 0 auto; opacity:.85; }
+
+  .controls{
+    position:sticky;
+    top:0;
+    z-index:5;
+    background:var(--panel);
+    border-bottom:1px solid var(--line);
+    box-shadow: var(--shadow);
+  }
+  .controls .wrap{
+    max-width:960px;
+    margin:0 auto;
+    padding:14px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .controls input[type="search"]{
+    width:100%;
+    padding:10px 12px;
+    font-size:15px;
+    border:1.5px solid var(--line);
+    border-radius:8px;
+    background:var(--bg);
+    color:var(--ink);
+  }
+  .filters-row{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .filters-row select{
+    flex:1 1 0;
+    min-width:150px;
+    padding:10px 10px;
+    font-size:14.5px;
+    border:1.5px solid var(--line);
+    border-radius:8px;
+    background:var(--bg);
+    color:var(--ink);
+    max-width:100%;
+  }
+  .controls input[type="search"]:focus, .filters-row select:focus{
+    border-color:var(--teal);
+  }
+
+  main{ max-width:960px; margin:0 auto; padding:18px 20px 60px; }
+
+  .meta-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    flex-wrap:wrap;
+    gap:10px 20px;
+    color:var(--ink-soft);
+    font-size:13.5px;
+    margin: 4px 2px 16px;
+  }
+  .legend{ display:flex; gap:14px; flex-wrap:wrap; }
+  .legend span{ display:inline-flex; align-items:center; gap:5px; }
+  .dot{ width:9px; height:9px; border-radius:50%; display:inline-block; }
+  .dot.gov{ background:var(--gov); }
+  .dot.priv{ background:var(--priv); }
+  .dot.shc{ background:var(--shc); }
+  .dot.hub{ background:var(--hub); }
+  .dot.ngo{ background:var(--ngo); }
+
+  .legend-group{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .legend-label{ font-weight:600; color:var(--ink); }
+
+  .region-group{ margin-bottom:26px; }
+  .region-heading{
+    position:sticky;
+    top:var(--controls-h);
+    z-index:4;
+    background:var(--bg);
+    font-size:12.5px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+    color:var(--teal-deep);
+    border-bottom:2px solid var(--line);
+    padding:8px 2px 6px;
+    margin: 22px 0 10px;
+  }
+  .province-heading{
+    font-size:13px;
+    font-weight:700;
+    color:var(--ink-soft);
+    margin: 16px 0 8px 2px;
+  }
+
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-left:4px solid var(--gov);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:12px 14px;
+    margin-bottom:9px;
+  }
+  .card.priv{ border-left-color:var(--priv); }
+
+  .card-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:10px;
+  }
+  .card h3{
+    font-size:15.5px;
+    margin:0;
+    font-weight:650;
+    line-height:1.35;
+  }
+  .badge-group{
+    flex:0 0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    align-items:flex-end;
+  }
+  .badge{
+    font-size:11px;
+    font-weight:700;
+    padding:3px 8px;
+    border-radius:999px;
+    white-space:nowrap;
+  }
+  .badge.gov{ background:var(--gov-bg); color:var(--gov); }
+  .badge.priv{ background:var(--priv-bg); color:var(--priv); }
+  .badge.shc{ background:var(--shc-bg); color:var(--shc); }
+  .badge.hub{ background:var(--hub-bg); color:var(--hub); }
+  .badge.ngo{ background:var(--ngo-bg); color:var(--ngo); }
+  .badge-group .expiry{
+    font-size:11px;
+    color:#9AA7A0;
+    text-align:right;
+    margin-top:2px;
+  }
+
+  .card .addr{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    margin:5px 0 3px;
+  }
+  .card .directions{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--teal);
+    text-decoration:none;
+    margin-bottom:8px;
+  }
+  .card .directions:hover{ text-decoration:underline; }
+  .card .directions svg{ width:12px; height:12px; fill:currentColor; flex:0 0 auto; }
+  .card .contact{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 16px;
+    font-size:13.5px;
+  }
+  .card .contact a{ text-decoration:none; }
+  .card .contact a:hover{ text-decoration:underline; }
+  .card .contact .none{ color:#9AA7A0; font-style:italic; }
+
+  .card .socials{
+    display:flex;
+    gap:8px;
+    margin-top:9px;
+  }
+  .card .socials a{
+    width:26px;
+    height:26px;
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--bg);
+    border:1px solid var(--line);
+    color:var(--ink-soft);
+    transition:background .15s, color .15s;
+  }
+  .card .socials a:hover{
+    background:var(--teal);
+    color:#fff;
+    border-color:var(--teal);
+  }
+  .card .socials svg{ width:14px; height:14px; fill:currentColor; }
+
+  .empty-state{
+    text-align:center;
+    padding:50px 20px;
+    color:var(--ink-soft);
+  }
+  .empty-state strong{ display:block; color:var(--ink); font-size:16px; margin-bottom:6px; }
+
+  footer{
+    max-width:960px;
+    margin:0 auto;
+    padding:10px 20px 50px;
+    color:var(--ink-soft);
+    font-size:12.5px;
+    border-top:1px solid var(--line);
+  }
+  footer p{ max-width:70ch; }
+  footer p.note{ color:#8A9890; }
+
+  @media (max-width:640px){
+    .filters-row select{ flex:1 1 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <p class="credit">Created by <a href="https://www.reddit.com/r/phlgbt" target="_blank" rel="noopener">r/phlgbt</a> from the <a href="https://www.philhealth.gov.ph/partners/providers/facilities/accredited/OHAT_053126.pdf" target="_blank" rel="noopener">PhilHealth OHAT provider list</a>.</p>
+    <div class="eyebrow">PhilHealth-accredited &middot; updated as of May 31, 2026</div>
+    <h1>HIV, STI &amp; Sexual Health Clinic Directory</h1>
+    <p class="sub">
+      Search 320 PhilHealth-accredited clinics across the Philippines offering HIV treatment
+      along with broader STI and sexual health services &mdash; organized by region, province,
+      and facility type.
+    </p>
+    <p class="report-link">
+      <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22L12 2Zm0 4.5 7.5 13h-15L12 6.5Zm-1 3.5v4h2v-4h-2Zm0 5.5v2h2v-2h-2Z"/></svg>
+      <a href="https://www.reddit.com/message/compose/?to=%2Fr%2Fphlgbt&subject=Clinic%20Directory%20Correction&message=" target="_blank" rel="noopener">Report a wrong or outdated listing to the mods</a>
+    </p>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <input type="search" id="search" placeholder="Search by clinic name, city, or province&hellip;" autocomplete="off">
+    <div class="filters-row">
+      <select id="regionFilter" aria-label="Filter by region">
+        <option value="">All regions</option>
+      </select>
+      <select id="provinceFilter" aria-label="Filter by province or city">
+        <option value="">All provinces / cities</option>
+      </select>
+      <select id="typeFilter" aria-label="Filter by facility type">
+        <option value="">All facility types</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="meta-row">
+    <span id="resultCount">Loading&hellip;</span>
+    <div class="legend-group">
+      <span class="legend"><span class="legend-label">Accreditation:</span></span>
+      <span class="legend"><span><span class="dot gov"></span> Government</span> <span><span class="dot priv"></span> Private</span></span>
+    </div>
+  </div>
+  <div class="meta-row" style="margin-top:-10px;">
+    <span></span>
+    <div class="legend-group">
+      <span class="legend"><span class="legend-label">Type:</span></span>
+      <span class="legend">
+        <span><span class="dot shc"></span> Social Hygiene Clinic</span>
+        <span><span class="dot hub"></span> DOH Treatment Hub / Hospital</span>
+        <span><span class="dot ngo"></span> Community Hub / NGO</span>
+      </span>
+    </div>
+  </div>
+
+  <div id="results"></div>
+
+  <div class="empty-state" id="emptyState" hidden>
+    <strong>No clinics match your search</strong>
+    Try a different city, province, facility type, or clinic name.
+  </div>
+</main>
+
+<footer>
+  <p>
+    Data sourced from PhilHealth's public list of accredited Outpatient HIV-AIDS Treatment (OHAT) package
+    providers, current as of the date shown above. Details such as hours, staff, and services offered can
+    change  -  if something looks outdated, please double-check directly with the clinic before visiting.
+    This directory does not collect or store any personal information about visitors.
+  </p>
+  <p class="note">
+    Facility type (Social Hygiene Clinic / DOH Treatment Hub / Community Hub &amp; NGO) is inferred from each
+    facility's name and is not an official field in the source list  -  treat it as a helpful guide, not a
+    guarantee, and verify directly with the clinic if the distinction matters for your visit.
+  </p>
+</footer>
+
+<script>
+const CLINICS = __CLINIC_DATA__;
+
+const SEC_LABEL = { G: "Government", P: "Private" };
+const TYPE_KEY = {
+  "Social Hygiene Clinic": "shc",
+  "DOH Treatment Hub / Hospital": "hub",
+  "Community Hub / NGO": "ngo"
+};
+
+const searchEl = document.getElementById('search');
+const regionEl = document.getElementById('regionFilter');
+const provinceEl = document.getElementById('provinceFilter');
+const typeEl = document.getElementById('typeFilter');
+const resultsEl = document.getElementById('results');
+const countEl = document.getElementById('resultCount');
+const emptyEl = document.getElementById('emptyState');
+
+function uniqueSorted(arr){ return [...new Set(arr)].sort((a,b)=>a.localeCompare(b)); }
+
+// Canonical region order (matches the source document's own ordering) --
+// alphabetical sort puts "REGION IX" between "REGION IV-B" and "REGION V"
+// since it compares character-by-character, so regions need an explicit order.
+const REGION_ORDER = [
+  "CORDILLERA ADMINISTRATIVE REGION", "REGION I", "REGION II", "REGION III",
+  "NATIONAL CAPITAL REGION & RIZAL", "REGION IV-A", "REGION IV-B", "REGION V",
+  "REGION VI", "REGION VII", "REGION VIII", "REGION IX", "REGION X", "REGION XI",
+  "REGION XII", "CARAGA REGION", "BANGSAMORO AUTONOMOUS REGION OF MUSLIM MINDANAO"
+];
+function sortRegions(arr){
+  const set = [...new Set(arr)];
+  return set.sort((a, b) => {
+    const ai = REGION_ORDER.indexOf(a), bi = REGION_ORDER.indexOf(b);
+    if(ai === -1 && bi === -1) return a.localeCompare(b);
+    if(ai === -1) return 1;
+    if(bi === -1) return -1;
+    return ai - bi;
+  });
+}
+
+function populateRegionOptions(){
+  const regions = sortRegions(CLINICS.map(c => c.region));
+  for(const r of regions){
+    const opt = document.createElement('option');
+    opt.value = r; opt.textContent = r;
+    regionEl.appendChild(opt);
+  }
+}
+
+function populateProvinceOptions(regionFilter){
+  provinceEl.innerHTML = '<option value="">All provinces / cities</option>';
+  const pool = regionFilter ? CLINICS.filter(c => c.region === regionFilter) : CLINICS;
+  const provinces = uniqueSorted(pool.map(c => c.province));
+  for(const p of provinces){
+    const opt = document.createElement('option');
+    opt.value = p; opt.textContent = p;
+    provinceEl.appendChild(opt);
+  }
+}
+
+function populateTypeOptions(){
+  const types = uniqueSorted(CLINICS.map(c => c.facility_type));
+  for(const t of types){
+    const opt = document.createElement('option');
+    opt.value = t; opt.textContent = t;
+    typeEl.appendChild(opt);
+  }
+}
+
+function escapeHtml(s){
+  return (s || '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+function mapsLink(name, address){
+  const query = [name, address].filter(Boolean).join(', ');
+  if(!query) return null;
+  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
+}
+
+function telHref(tel){
+  const m = tel && tel.match(/\+?\d[\d\-\s]{5,}/);
+  if(!m) return null;
+  return 'tel:' + m[0].replace(/[^\d+]/g, '');
+}
+
+function emailHrefs(emailField){
+  if(!emailField) return [];
+  return emailField.split(/[;\/,]\s*/).map(e => e.trim()).filter(e => e.includes('@'));
+}
+
+// Simple monochrome glyphs (not brand marks) used purely as functional link
+// indicators for each platform.
+const SOCIAL_ICONS = {
+  facebook: '<svg viewBox="0 0 24 24"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 21.94V14.9H7.9v-2.84h2.54v-2.16c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.48h-1.26c-1.24 0-1.63.78-1.63 1.58v1.81h2.77l-.44 2.84h-2.33v7.04C18.34 21.2 22 17.06 22 12.06Z"/></svg>',
+  instagram: '<svg viewBox="0 0 24 24"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.55.55.9 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.13s-.01 3.07-.06 4.13c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76 4.9 4.9 0 0 1-1.76 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.07-.01-4.13-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.01 15.07 2 14.73 2 12s.01-3.07.06-4.13c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76a4.9 4.9 0 0 1 1.76-1.15c.64-.25 1.37-.42 2.43-.47C8.93 2.01 9.27 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.25A3.25 3.25 0 1 1 12 8.75a3.25 3.25 0 0 1 0 6.5ZM17.5 6.5a1.15 1.15 0 1 1 0-2.3 1.15 1.15 0 0 1 0 2.3Z"/></svg>',
+  twitter: '<svg viewBox="0 0 24 24"><path d="M18.24 3H21l-6.34 7.25L22.5 21h-6.94l-5.44-6.83L3.9 21H1.13l6.83-7.8L1 3h7.1l4.9 6.24L18.24 3Zm-1.21 16h1.53L7.03 4.87H5.4L17.03 19Z"/></svg>',
+  tiktok: '<svg viewBox="0 0 24 24"><path d="M16.5 2c.3 2.1 1.7 3.6 3.8 3.9v3.1c-1.4 0-2.6-.4-3.8-1.2v6.7c0 3.4-2.5 6-6 6-3.4 0-6-2.6-6-6s2.6-6 6-6c.3 0 .6 0 .9.1v3.3a2.9 2.9 0 0 0-.9-.1 2.7 2.7 0 1 0 0 5.4c1.6 0 2.9-1.2 2.9-3V2h3.1Z"/></svg>',
+  bluesky: '<svg viewBox="0 0 24 24"><path d="M12 8.5C10.6 5.9 7 3.6 4.3 3.2c-1 .2-1.3 1-1 1.9.4 1.1 2.6 2.4 4.4 3.7C4.9 8.4 2 10 2 12.4c0 2.9 3.3 3.3 5 1.4-.2 1.9.3 4.2 2.3 5.2.8.4 1.8-.1 2-1 .1-.4.2-1 .3-1.6.1-.6.3-.6.4 0 .1.6.2 1.2.3 1.6.2.9 1.2 1.4 2 1 2-1 2.5-3.3 2.3-5.2 1.7 1.9 5-.1 5-3 0-2.4-2.9-4-4.7-3.6 1.8-1.3 4-2.6 4.4-3.7.3-.9 0-1.7-1-1.9-2.7.4-6.3 2.7-7.7 5.3Z"/></svg>'
+};
+
+function socialLinks(socials){
+  if(!socials) return '';
+  const order = ['facebook', 'instagram', 'twitter', 'tiktok', 'bluesky'];
+  const labels = {facebook:'Facebook', instagram:'Instagram', twitter:'X (Twitter)', tiktok:'TikTok', bluesky:'Bluesky'};
+  let html = '';
+  for(const key of order){
+    if(socials[key]){
+      html += `<a href="${escapeHtml(socials[key])}" target="_blank" rel="noopener" title="${labels[key]}" aria-label="${labels[key]}">${SOCIAL_ICONS[key]}</a>`;
+    }
+  }
+  return html ? `<div class="socials">${html}</div>` : '';
+}
+
+function render(){
+  const q = searchEl.value.trim().toLowerCase();
+  const regionFilter = regionEl.value;
+  const provinceFilter = provinceEl.value;
+  const typeFilter = typeEl.value;
+
+  let filtered = CLINICS.filter(c => {
+    if(regionFilter && c.region !== regionFilter) return false;
+    if(provinceFilter && c.province !== provinceFilter) return false;
+    if(typeFilter && c.facility_type !== typeFilter) return false;
+    if(q){
+      const hay = (c.name + ' ' + c.province + ' ' + c.address + ' ' + c.region).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  countEl.textContent = filtered.length + (filtered.length === 1 ? ' clinic found' : ' clinics found');
+
+  if(filtered.length === 0){
+    resultsEl.innerHTML = '';
+    emptyEl.hidden = false;
+    return;
+  }
+  emptyEl.hidden = true;
+
+  filtered.sort((a,b) => {
+    const ai = REGION_ORDER.indexOf(a.region), bi = REGION_ORDER.indexOf(b.region);
+    const regionCmp = (ai === -1 && bi === -1) ? a.region.localeCompare(b.region)
+      : (ai === -1) ? 1 : (bi === -1) ? -1 : ai - bi;
+    return regionCmp ||
+      a.province.localeCompare(b.province) ||
+      a.name.localeCompare(b.name);
+  });
+
+  let html = '';
+  let curRegion = null, curProvince = null;
+
+  for(const c of filtered){
+    if(c.region !== curRegion){
+      curRegion = c.region; curProvince = null;
+      html += `<div class="region-heading">${escapeHtml(curRegion)}</div>`;
+    }
+    if(c.province !== curProvince){
+      curProvince = c.province;
+      html += `<div class="province-heading">${escapeHtml(curProvince)}</div>`;
+    }
+
+    const secKey = c.sector === 'P' ? 'priv' : 'gov';
+    const secLabel = SEC_LABEL[c.sector] || 'Unspecified';
+    const typeKey = TYPE_KEY[c.facility_type] || 'ngo';
+    const tel = telHref(c.tel);
+    const emails = emailHrefs(c.email);
+    const directions = mapsLink(c.name, c.address);
+
+    html += `<div class="card ${secKey}">
+      <div class="card-top">
+        <h3>${escapeHtml(c.name)}</h3>
+        <div class="badge-group">
+          <span class="badge ${secKey}">${secLabel}</span>
+          <span class="badge ${typeKey}">${escapeHtml(c.facility_type)}</span>
+          <span class="expiry">Valid through ${escapeHtml(c.expire_date || '&mdash;')}</span>
+        </div>
+      </div>
+      <div class="addr">${escapeHtml(c.address || '&mdash;')}</div>
+      ${directions ? `<a class="directions" href="${directions}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Get Directions</a>` : ''}
+      <div class="contact">
+        ${tel ? `<a href="${tel}">${escapeHtml(c.tel)}</a>` : (c.tel ? escapeHtml(c.tel) : '<span class="none">No phone listed</span>')}
+        ${emails.length ? emails.map(e => `<a href="mailto:${escapeHtml(e)}">${escapeHtml(e)}</a>`).join('') : '<span class="none">No email listed</span>'}
+      </div>
+      ${socialLinks(c.socials)}
+    </div>`;
+  }
+
+  resultsEl.innerHTML = html;
+  updateURL();
+}
+
+// Shareable/bookmarkable filters: reflect current filter state into the URL
+// query string (without adding browser-history entries on every keystroke),
+// and read it back out on page load so a shared link reproduces the same view.
+function updateURL(){
+  const params = new URLSearchParams();
+  if(searchEl.value.trim()) params.set('q', searchEl.value.trim());
+  if(regionEl.value) params.set('region', regionEl.value);
+  if(provinceEl.value) params.set('province', provinceEl.value);
+  if(typeEl.value) params.set('type', typeEl.value);
+  const qs = params.toString();
+  const newUrl = window.location.pathname + (qs ? '?' + qs : '');
+  history.replaceState(null, '', newUrl);
+}
+
+function loadFromURL(){
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q'), region = params.get('region'),
+        province = params.get('province'), type = params.get('type');
+  if(q) searchEl.value = q;
+  if(region) regionEl.value = region;
+  populateProvinceOptions(regionEl.value);
+  if(province) provinceEl.value = province;
+  if(type) typeEl.value = type;
+}
+
+// The controls bar's height changes between desktop (one row of dropdowns)
+// and mobile (dropdowns stacked), so the sticky region headings need their
+// top offset measured dynamically rather than hardcoded.
+const controlsEl = document.querySelector('.controls');
+function syncControlsHeight(){
+  document.documentElement.style.setProperty('--controls-h', controlsEl.offsetHeight + 'px');
+}
+window.addEventListener('resize', syncControlsHeight);
+
+regionEl.addEventListener('change', () => {
+  populateProvinceOptions(regionEl.value);
+  render();
+});
+provinceEl.addEventListener('change', render);
+typeEl.addEventListener('change', render);
+searchEl.addEventListener('input', render);
+
+populateRegionOptions();
+populateTypeOptions();
+loadFromURL();
+syncControlsHeight();
+render();
+</script>
+
+</body>
+</html>
