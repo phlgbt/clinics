@@ -633,6 +633,55 @@ populateTypeOptions();
 loadFromURL();
 syncControlsHeight();
 render();
+
+  const CLINICS = [
+  // ... all 320 clinic objects live here ...
+];
+
+// 1. HELPER FUNCTION: Cleans up multiple emails and creates working mailto links
+function formatEmailLinks(emailStr) {
+  if (!emailStr) return '<span class="none">N/A</span>';
+
+  // Splits multiple emails separated by / or ;
+  const emails = emailStr.split(/\s*[\/;]\s*/);
+
+  return emails
+    .map(email => `<a href="mailto:${email.trim()}">${email.trim()}</a>`)
+    .join(' | ');
+}
+
+// 2. RENDER FUNCTION: Takes clinic data and builds the HTML cards
+function renderClinics(clinicsToDisplay) {
+  const container = document.getElementById('results');
+  const countEl = document.getElementById('resultCount');
+  
+  // Update count header
+  countEl.textContent = `Showing ${clinicsToDisplay.length} clinic(s)`;
+
+  // Generate HTML for each clinic
+  container.innerHTML = clinicsToDisplay.map(clinic => {
+    return `
+      <div class="card ${clinic.sector === 'P' ? 'priv' : ''}">
+        <div class="card-top">
+          <h3>${clinic.name}</h3>
+          <div class="badge-group">
+            <span class="badge ${clinic.sector === 'P' ? 'priv' : 'gov'}">
+              ${clinic.sector === 'P' ? 'Private' : 'Government'}
+            </span>
+          </div>
+        </div>
+        <div class="addr">${clinic.address}</div>
+        <div class="contact">
+          <span>📞 ${clinic.tel || 'N/A'}</span>
+          <span>✉️ ${formatEmailLinks(clinic.email)}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// 3. INITIAL LOAD: Run the render function when page loads
+renderClinics(CLINICS);
 </script>
 
 </body>
