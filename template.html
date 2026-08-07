@@ -473,10 +473,28 @@ function mapsLink(name, address){
   return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
 }
 
-function telHref(tel){
-  const m = tel && tel.match(/\+?\d[\d\-\s]{5,}/);
-  if(!m) return null;
-  return 'tel:' + m[0].replace(/[^\d+]/g, '');
+function phoneEntries(telField){
+  if(!telField) return [];
+  // Primary separator seen throughout the data is "/". A couple of entries
+  // list two complete numbers separated only by whitespace (no "/") -- catch
+  // that specific shape too, without over-matching things like "TO 65 loc 2102".
+  let segments = telField.split('/').map(s => s.trim()).filter(Boolean);
+  let expanded = [];
+  for(const seg of segments){
+    const twoNumbers = seg.match(/^(\d{10,11})\s+(\d{10,11})$/);
+    if(twoNumbers){ expanded.push(twoNumbers[1], twoNumbers[2]); }
+    else { expanded.push(seg); }
+  }
+  // Each segment's display text is kept as-is (preserving "loc 606" extension
+  // hints for the human reader); the href is the first clean digit run found.
+  // A handful of segments are bare trailing extensions ("7990", "2632") with
+  // too few digits to form a dependable tel: link on their own -- those stay
+  // as plain (non-clickable) text rather than link to a wrong/partial number.
+  return expanded.map(seg => {
+    const m = seg.match(/\+?\d[\d\-\s]{5,}/);
+    const href = m ? 'tel:' + m[0].replace(/[^\d+]/g, '') : null;
+    return { text: seg, href };
+  });
 }
 
 function emailHrefs(emailField){
@@ -558,7 +576,7 @@ function render(){
     const secKey = c.sector === 'P' ? 'priv' : 'gov';
     const secLabel = SEC_LABEL[c.sector] || 'Unspecified';
     const typeKey = TYPE_KEY[c.facility_type] || 'ngo';
-    const tel = telHref(c.tel);
+    const phones = phoneEntries(c.tel);
     const emails = emailHrefs(c.email);
     const directions = mapsLink(c.name, c.address);
 
@@ -574,7 +592,7 @@ function render(){
       <div class="addr">${escapeHtml(c.address || '&mdash;')}</div>
       ${directions ? `<a class="directions" href="${directions}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>Get Directions</a>` : ''}
       <div class="contact">
-        ${tel ? `<a href="${tel}">${escapeHtml(c.tel)}</a>` : (c.tel ? escapeHtml(c.tel) : '<span class="none">No phone listed</span>')}
+        ${phones.length ? phones.map(p => p.href ? `<a href="${p.href}">${escapeHtml(p.text)}</a>` : escapeHtml(p.text)).join('') : '<span class="none">No phone listed</span>'}
         ${emails.length ? emails.map(e => `<a href="mailto:${escapeHtml(e)}">${escapeHtml(e)}</a>`).join('') : '<span class="none">No email listed</span>'}
       </div>
       ${socialLinks(c.socials)}
